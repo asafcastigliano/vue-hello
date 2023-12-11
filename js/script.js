@@ -1,6 +1,6 @@
-import { createApp } from 'vue';
+const { createApp } = Vue;
 
-const app = titleAndImage({
+createApp({
     
     data(){
         return {
